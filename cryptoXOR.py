@@ -1,6 +1,6 @@
 xor= lambda a,b:(a or b) and (int(not(a and b)))
 
-key = input("Qual key quer usar?")
+key = input("What key do you wanna use?just type it")
 
 def add(ll):
     mm=''
