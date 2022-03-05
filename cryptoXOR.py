@@ -1,7 +1,8 @@
 xor= lambda a,b:(a or b) and (int(not(a and b)))
 
+key = input("Qual key quer usar?")
+
 def add(ll):
-    key='0000011'
     mm=''
     for j,k in zip(ll,key):
         mm+=str(xor(int(j),int(k)))
